@@ -1,3 +1,10 @@
+/*
+ * @Author: liyang
+ * @Date: 2020-05-28 16:30:41
+ * @LastEditTime: 2020-05-28 17:24:13
+ * @LastEditors: liyang
+ * @Description:
+ */
 const config = {
   projectName: 'demo',
   date: '2018-8-28',
@@ -9,46 +16,16 @@ const config = {
   },
   sourceRoot: 'src',
   outputRoot: 'dist',
-  plugins: {
-    babel: {
-      sourceMap: true,
-      presets: [
-        'env'
-      ],
-      plugins: [
-        'transform-class-properties',
-        'transform-decorators-legacy',
-        'transform-object-rest-spread'
-      ]
-    },
-    typescript: {
-      compilerOptions: {
-        allowSyntheticDefaultImports: true,
-        baseUrl: '.',
-        declaration: false,
-        experimentalDecorators: true,
-        jsx: 'preserve',
-        jsxFactory: 'Nerv.createElement',
-        module: 'commonjs',
-        moduleResolution: 'node',
-        noImplicitAny: false,
-        noUnusedLocals: true,
-        outDir: './dist/',
-        preserveConstEnums: true,
-        removeComments: false,
-        rootDir: '.',
-        sourceMap: true,
-        strictNullChecks: true,
-        target: 'es6'
-      },
-      include: [
-        'src/**/*'
-      ],
-      exclude: [
-        'node_modules'
-      ],
-      compileOnSave: false
-    }
+  babel: {
+    sourceMap: true,
+    presets: [
+      'env'
+    ],
+    plugins: [
+      'transform-class-properties',
+      'transform-decorators-legacy',
+      'transform-object-rest-spread'
+    ]
   },
   defineConstants: {
   },

@@ -1,3 +1,10 @@
+/*
+ * @Author: liyang
+ * @Date: 2020-05-28 16:30:41
+ * @LastEditTime: 2020-05-28 16:52:37
+ * @LastEditors: liyang
+ * @Description:
+ */
 /* eslint-disable import/no-commonjs */
 module.exports = {
   env: {
@@ -19,7 +26,7 @@ module.exports = {
     devServer: {
       host: '0.0.0.0',
       disableHostCheck: true,
-      port: 8080
+      port: 9091
     }
   }
 }

@@ -1,3 +1,10 @@
+/*
+ * @Author: liyang
+ * @Date: 2020-05-28 16:30:41
+ * @LastEditTime: 2020-05-28 17:26:36
+ * @LastEditors: liyang
+ * @Description:
+ */
 import Taro, { Component } from '@tarojs/taro'
 import Index from './pages/index/index'
 
